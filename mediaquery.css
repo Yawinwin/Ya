@@ -1,0 +1,100 @@
+@media screen and (min-width:768px) {
+    .donate{
+        flex-basis:25%;
+    }
+.nav_box{
+    flex-basis:75%;
+    justify-content:flex-end;
+}
+.project-image{
+flex-direction:row;
+height:325px;
+}
+.project{
+    flex-direction:row;
+    height:325px;
+}
+.project-image img{
+    border-radius:1rem 0 0 1rem;
+}
+}
+.tree{
+    display: block;
+    flex-basis: 40%;
+    height: 500px
+}
+.volunteer{
+    display: flex;
+}
+
+.about{
+    flex-basis: 60%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+}
+.tree img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom center;
+}
+@media screen and (min-width:1200px) {
+    
+    .menu{
+        display:none;
+    }
+    #nav_show{
+        display:flex;
+    
+        flex-grow:1;
+    }
+    #nav_show ul{
+        list-style-type:none;
+        display:flex;
+        width:100%;
+    }
+    .navigation{
+        display:flex;
+        flex-direction:row-reverse;
+
+    }
+    #nav_show ul li{
+        flex-basis:35%;
+        text-align:center;
+    }
+    #nav_Show ul li a{
+ text-decoration:none;
+ color:white;
+
+    }
+    #project{
+        flex-direction:row;
+        height:325px;
+    }
+    #nav_Show ul li a{
+        text-decoration:none;
+        color:white;
+    
+    }
+    .campaigns{
+        flex-direction:row;
+        flex-wrap:wrap;
+
+    }
+    .project{
+        flex-basis:45%;
+        height:350px;
+        flex-grow:1;
+
+    }
+    .section-title{
+        flex-basis:100%;
+    }
+    .tree{
+ flex-basis: 50%
+    }
+    .about{
+        flex-basis: 50%;
+    }
+}
